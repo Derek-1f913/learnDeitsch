@@ -1,5 +1,5 @@
 import a from "./Greetings";
-import b from "./Numbers"
+import b from "./Farewells"
 
 const arr = [ a, b ]
 
