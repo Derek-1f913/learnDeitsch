@@ -116,7 +116,6 @@ const deck = {
       ],
       promptImage: "https://n19huqbctshx4yio.public.blob.vercel-storage.com/images/OnetoTen/6-8bUoyggh7kOSg6n1uXAN2eNYRqmItn.png",
       answerAudio: [
-        "https://n19huqbctshx4yio.public.blob.vercel-storage.com/audio/ZeroToTen/six/Sex1-tt8gzdu3.mp3",
         "https://n19huqbctshx4yio.public.blob.vercel-storage.com/audio/ZeroToTen/six/Sex10-s29xig0c.mp3",
         "https://n19huqbctshx4yio.public.blob.vercel-storage.com/audio/ZeroToTen/six/Sex11-7j282rkj.mp3",
         "https://n19huqbctshx4yio.public.blob.vercel-storage.com/audio/ZeroToTen/six/Sex12-sfjhg54j.mp3",
