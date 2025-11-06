@@ -15,7 +15,7 @@ function App() {
       <header>
         <div className="headerDiv">
           <img src="/miniLogo.png" alt="traditional Pennsylvania Dutch flower logo"/>
-          <h1>SchwetzDeitsch.org</h1>
+          <h2 className="deitsch">SchwetzDeitsch.org</h2>
           <img src="/miniLogo.png" alt="traditional Pennsylvania Dutch flower logo"/>
         </div>
         <NavBar setPage={setPage}/>
