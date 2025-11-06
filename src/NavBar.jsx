@@ -6,9 +6,9 @@ function NavBar({setPage}) {
   
   return (
     <nav>
-        <button onClick={()=>{clicked(3)}}>About Us</button>
-        <button onClick={()=>{clicked(1)}}>Decks</button>
-        <button onClick={()=>{clicked(2)}}>Dictionary</button>
+        <button onClick={()=>{clicked(3)}} className="english">About Us</button>
+        <button onClick={()=>{clicked(1)}} className="english">Decks</button>
+        <button onClick={()=>{clicked(2)}} className="english">Dictionary</button>
     </nav>
   )
  }
