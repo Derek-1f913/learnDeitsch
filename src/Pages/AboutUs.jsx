@@ -131,7 +131,7 @@ function AboutUs() {
             The audio on the site is short snippits of audio that I have taken from longer sources.
             I cut out individual words or sentences to use as examples of pronunciation.
             I edit and curate the clips myself.
-            It is my claim that this use is fair use leagally.
+            It is my claim that this use is fair use legally.
           </p>
           <p>
             Copy right protections in The United States exist automatically, the instant that a creative work is created.
