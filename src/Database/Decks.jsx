@@ -3,6 +3,7 @@ import Greetings from "./Greetings"
 import Farewells from "./Farewells"
 import ZeroToTen from "./ZeroToTen"
 import {useState, useEffect} from "react"
+import Subjects from "./Subjects"
 
 function Decks ({setDecksState}) {
     
@@ -28,6 +29,7 @@ function Decks ({setDecksState}) {
             <Greetings addDeck={addDeck}/>
             <Farewells addDeck={addDeck}/>
             <ZeroToTen addDeck={addDeck}/>
+            <Subjects addDeck={addDeck}/>
             <ToLove addDeck={addDeck}/>
 
         </>
