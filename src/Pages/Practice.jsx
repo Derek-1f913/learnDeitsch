@@ -1,5 +1,5 @@
 import {useState, useEffect} from "react"
-import Decks from "../Database/Decks"
+import Decks from "../Database/Library"
 function Practice() {
     const [decksState, setDecksState] = useState([])
     const [oddsArr, setOddsArr] = useState([])

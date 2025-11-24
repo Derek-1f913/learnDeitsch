@@ -1,11 +1,11 @@
-import ToLove from "./ToLove"
-import Greetings from "./Greetings"
-import Farewells from "./Farewells"
-import ZeroToTen from "./ZeroToTen"
+import ToLove from "./Decks/ToLove"
+import Greetings from "./Decks/Greetings"
+import Farewells from "./Decks/Farewells"
+import ZeroToTen from "./Decks/ZeroToTen"
 import {useState, useEffect} from "react"
-import Subjects from "./Subjects"
+import Subjects from "./Decks/Subjects"
 
-function Decks ({setDecksState}) {
+function Library ({setDecksState}) {
     
     const [allDecks, setAllDecks] = useState([])
     
@@ -37,4 +37,4 @@ function Decks ({setDecksState}) {
 
 }
 
-export default Decks
+export default Library
