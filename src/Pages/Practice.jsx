@@ -61,12 +61,7 @@ function Practice() {
         if((gameDeck.length > 0 && oddsArr.length > 0) && Object.keys(currentCard).length === 0) {
             setCurrentCard(()=>{
                 const index = Math.floor(Math.random() * oddsArr.length)
-                console.log(index)
-                console.log(gameDeck)
-                console.log(oddsArr)
-                console.log(oddsArr[index])
                 let temp = gameDeck[oddsArr[index]]
-                console.log(temp)
                 temp.index = oddsArr[index]
                 return temp
             })

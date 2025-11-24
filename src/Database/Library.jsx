@@ -4,6 +4,7 @@ import Farewells from "./Decks/Farewells"
 import ZeroToTen from "./Decks/ZeroToTen"
 import {useState, useEffect} from "react"
 import Subjects from "./Decks/Subjects"
+import Colors from "./Decks/Colors"
 
 function Library ({setDecksState}) {
     
@@ -31,6 +32,7 @@ function Library ({setDecksState}) {
             <ZeroToTen addDeck={addDeck}/>
             <Subjects addDeck={addDeck}/>
             <ToLove addDeck={addDeck}/>
+            <Colors addDeck={addDeck}/>
 
         </>
     )
