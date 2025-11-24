@@ -1,6 +1,7 @@
 import ToLove from "./ToLove"
 import Greetings from "./Greetings"
 import Farewells from "./Farewells"
+import ZeroToTen from "./ZeroToTen"
 import {useState, useEffect} from "react"
 
 function Decks ({setDecksState}) {
@@ -24,9 +25,11 @@ function Decks ({setDecksState}) {
     return (
         <>  
             {/* these components intentionaly don't display anything but they are rendered so that their functions run*/}
-            <ToLove addDeck={addDeck}/>
             <Greetings addDeck={addDeck}/>
             <Farewells addDeck={addDeck}/>
+            <ZeroToTen addDeck={addDeck}/>
+            <ToLove addDeck={addDeck}/>
+
         </>
     )
 
