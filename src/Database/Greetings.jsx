@@ -1,20 +1,15 @@
-import Translate from "../Cards/PicAudioTranslate"
+import PicAudioTranslate from "../Cards/PicAudioTranslate"
 import { useEffect } from "react"
 
 function Greetings ({addDeck}) {
   function displayer (english, deitsch, pic, audio, next, reset) {
     let oneAudio = audio[Math.floor(Math.random() * audio.length)]
-    return <Translate english={english} deitsch={deitsch} next={next} reset={reset} pic={pic} audio={oneAudio}/>
+    return <PicAudioTranslate english={english} deitsch={deitsch} next={next} reset={reset} pic={pic} audio={oneAudio}/>
   }
   const Deck = {
     name: "Greetings",
     included: false,
     cards: [
-      {
-        english: "I love myself",
-        deitsch: "Ich lieb mich",
-        display (next, reset) { return displayer(this.english, this.deitsch, this.pic, this.audio, next, reset)}
-      },
       {
         english: "Good Day",
         pic: "https://n19huqbctshx4yio.public.blob.vercel-storage.com/images/greetings/GuderDaag-t8zcfd.jpg",
