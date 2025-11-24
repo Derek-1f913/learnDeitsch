@@ -64,9 +64,10 @@ function Practice() {
                 console.log(index)
                 console.log(gameDeck)
                 console.log(oddsArr)
+                console.log(oddsArr[index])
                 let temp = gameDeck[oddsArr[index]]
                 console.log(temp)
-                temp.index = index
+                temp.index = oddsArr[index]
                 return temp
             })
         }
@@ -74,7 +75,7 @@ function Practice() {
             setOddsArr(()=>{
                 let progressDeck = []
                 gameDeck.forEach((element, i) => {
-                    for (let index = 0; index < 10; index++) {
+                    for (let index = 0; index < 2; index++) {
                         progressDeck.push(i)
                     }
                 });
