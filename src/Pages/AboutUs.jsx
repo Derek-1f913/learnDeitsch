@@ -4,7 +4,7 @@ function AboutUs() {
     <main className="aboutUsBody">
         <img className="profilePic" src="https://n19huqbctshx4yio.public.blob.vercel-storage.com/images/greetings/afternoon-V17aAtEqiGtoBZfVLl05tWfscHRh04.jpg"></img>
         <section className="english">
-          <p>Welcome to SchwetzDeitsch.org This website is a labor of love, and a gift to my community. The goal of this site is to become a much needed resource for learning Dutch, ie Pennsylvania Dutch, ie Deitsch.</p>
+          <p>Welcome to SchwetzDeitsch.org. This website is a labor of love, and a gift to my community. The goal of this site is to become a much needed resource for learning Dutch, ie Pennsylvania Dutch, ie Deitsch.</p>
           <p>This website is a companion tool that is best used in conjunction with as many resources you can get for learning Dutch. I will add as much to the website as I can but in general there are better explinations of grammar and definitions available in print and on the internet than you will find here.</p> 
           <p>This site will be most helpful for practicing, refershing, expanding, and solidifying the concepts you are also learning elsewhere.</p>
         </section>
